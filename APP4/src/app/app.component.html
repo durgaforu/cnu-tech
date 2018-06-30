@@ -1,0 +1,19 @@
+<div class="container mt-4">
+
+  <div class="card col-8 col-sm-8 col-md-8">
+    <div class="card-header">
+        <h2>Angular Application</h2>
+    </div>
+
+    <div class="card-body" align='center'>
+      <button class="btn btn-success btnspace"  (click)="greet('Good Morning')">Good Morning</button>
+      <button class="btn btn-success btnspace"  (click)="greet('Good Afternoon')">Good Afternoon</button>
+      <button class="btn btn-success btnspace"  (click)="greet('Good Evening')">Good Evening</button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<app-greeting message="{{msg}}"></app-greeting>

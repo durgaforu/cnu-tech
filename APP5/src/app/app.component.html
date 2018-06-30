@@ -1,0 +1,20 @@
+<div class="container mt-4">
+
+  <div class="card col-8 col-sm-8 col-md-8">
+    <div class="card-header">
+        <h2>Angular Application</h2>
+    </div>
+
+    <div class="card-body" align='center'>
+        <h3>{{msg}}</h3>
+    </div>
+
+  </div>
+
+</div>
+
+<div>
+<app-greeting lbl="Good Moring" (outMsg)="display($event)"></app-greeting>
+<app-greeting lbl="Good Afternoon" (outMsg)="display($event)"></app-greeting>
+<app-greeting lbl="Good Evening" (outMsg)="display($event)"></app-greeting>
+</div>

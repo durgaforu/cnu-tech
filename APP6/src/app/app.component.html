@@ -1,0 +1,33 @@
+<div class="container mt-5">
+<h3>Welcome to Angular</h3>
+<h1>{{s1}}</h1>
+<div>
+  <li>Id: {{emp.id}}</li>
+  <li>Name: {{emp.ename}}</li>
+  <li>Salary: {{emp.salary}}</li>
+</div>
+
+<button class="btn btn-primary" (click)="fun1()">Show</button>
+<button class="btn btn-primary" (click)="fun2()">Hide</button>
+
+<div class="alert bg-info" [hidden]="status">
+  <h3>Bla bla</h3>
+</div>
+
+<div style="background: red">
+  <h2>Hello</h2>
+</div>
+
+<div class="form-group">
+<label>Enter User Name</label>
+  <input type="text" [(ngModel)]="emp.ename" name="userName" class="form-control">
+  <select class="form-control">
+    <option *ngFor="let friend of friends">
+        {{friend}}
+    </option>
+  </select>
+
+</div>
+<h1>Name: {{empName}}</h1>
+
+</div>
