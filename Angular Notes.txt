@@ -26,3 +26,71 @@ Configuring bootstrap
 2. open styles.css
 3. @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+
+
+
+NG - data-binding
+--------------------
+
+ 1. interpolation
+
+    syntax:  {{}}
+
+ 2. property binding
+
+    syntax : <element [prop]="expr"/>
+
+ 3. event-binding
+
+    syntax : <element (event-name)="handler($event)"/>
+
+
+====================================================================
+
+
+NG - directives
+---------------------
+
+ 1. component   ==> directive + template   : new UI 
+ 2. structural  ==> to change DOM structure
+     e.g   ngFor,ngIf,....
+
+ 3. attribute   ==> to change attributes
+
+
+ ====================================================================
+
+
+ NG - pipes
+ -----------
+ 
+====================================================================
+
+ NG - directives
+
+    -> component ==> New UI/template`
+    -> structural => modify existong template/DOM
+    -> attribute 
+
+----------------------------------------------------------
+
+
+NG - services
+
+   why we need ?
+
+   ==> to hold shared data/logic for many components
+
+   imp-points:
+
+   ==> by defautt singletons   
+   ==> injected by F.W thru constructor
+
+   ----------------
+
+  ==> all services must be registred into providers/injectors
+
+     2-ways
+
+     ==> module-level
+     ==> component-level

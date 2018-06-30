@@ -1,0 +1,16 @@
+<div class="container">
+
+  <div class="card mt-4">
+    <div class="card-header" align='center'>
+        <h3>Component APP</h3>
+    </div>
+
+    <div class="card-body" align='center'>
+        <button  class="btn btn-primary" (click)='fun()'>Greet</button>
+          <h2>{{childmsg}}</h2>
+      </div>
+  </div>
+
+</div>
+
+<app-greeting greetMe={{msg}} (out)="fun2($event)"></app-greeting>
