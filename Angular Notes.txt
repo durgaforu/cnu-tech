@@ -1,3 +1,28 @@
 Angular 2 Notes
 ---------------------------------
+   https://github.com/richardsforu/cnu-tech
+
+Creating new Application using angular cli
+   -> ng new APP1
+Note: By default angular create a default componet 'root'
+
+Flow
+-----
+1. main.ts
+2. app.module.ts
+3. app.componet.ts
+        -> class AppComponent
+        -> selector -> 
+
+Starting and Running app
+--------------------------
+1. npm start
+2. ng serve --open
+
+
+Configuring bootstrap
+-------------------------
+1. npm install bootstrap -s
+2. open styles.css
+3. @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
