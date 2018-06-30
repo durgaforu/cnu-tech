@@ -1,4 +1,14 @@
 <div class="container" >
   <h1>Welcome to my APP</h1>
-  
+
+
+<div class="alert bg-info">
+  <h3>Name: {{empName}}</h3>
+</div>
+
+<button [disabled]=true>Click here</button>
+<div class="alert" *ngFor="let country of countries">
+  <li>{{country}}</li>
+</div>
+
 </div>
