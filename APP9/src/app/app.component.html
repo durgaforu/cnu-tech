@@ -1,0 +1,32 @@
+<div class="container">
+  <h2>Angular Services Demo_</h2>
+  <hr/>
+
+  <div class="alert bg-info">
+    <h3>Id: {{product.id}}</h3>
+    <h3>Id: {{product.name}}</h3>
+    <h3>Id: {{product.price}}</h3>
+  </div>
+  
+</div>
+<hr/>
+
+<div class="card">
+<table class="sm-small">
+  <tr>
+     <th>Id</th>
+     <th>Name</th>
+     <th>Email</th>
+  </tr>
+  
+  <tr *ngFor="let emp of employees">
+    <td>{{emp.id}}</td>
+    <td>{{emp.name}}</td>
+    <td>{{emp.email}}</td>
+  </tr>
+
+
+
+
+</table>
+</div>
